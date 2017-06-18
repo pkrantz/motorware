@@ -2,6 +2,7 @@
 docs/*
 drivers/docs/*
 modules/docs/*
+**/.settings/*
 
 # Prerequisites
 #*.d
