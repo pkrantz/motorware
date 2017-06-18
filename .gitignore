@@ -2,7 +2,6 @@
 docs/*
 drivers/*
 modules/*
-solutions/*
 
 # Prerequisites
 *.d
