@@ -1,6 +1,6 @@
 # My folders
 docs/*
-drivers/*
+drivers/docs/*
 modules/docs/*
 
 # Prerequisites
