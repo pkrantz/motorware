@@ -1,3 +1,9 @@
+# My folders
+docs/*
+drivers/*
+modules/*
+solutions/*
+
 # Prerequisites
 *.d
 
