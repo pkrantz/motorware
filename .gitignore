@@ -1,7 +1,7 @@
 # My folders
 docs/*
 drivers/*
-modules/*
+modules/docs/*
 
 # Prerequisites
 #*.d
