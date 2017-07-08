@@ -60,7 +60,7 @@ extern "C" {
 //! \brief Defines the full scale frequency for IQ variable, Hz
 //! \brief All frequencies are converted into (pu) based on the ratio to this value
 //! \brief this value MUST be larger than the maximum speed that you are expecting from the motor
-#define USER_IQ_FULL_SCALE_FREQ_Hz_2 (150.0) // 800 Example with buffer for 8-pole 6 KRPM motor to be run to 10 KRPM with field weakening; Hz =(RPM * Poles) / 120
+#define USER_IQ_FULL_SCALE_FREQ_Hz_2 (600.0) // 800 Example with buffer for 8-pole 6 KRPM motor to be run to 10 KRPM with field weakening; Hz =(RPM * Poles) / 120
 
 //! \brief Defines full scale value for the IQ30 variable of Voltage inside the system
 //! \brief All voltages are converted into (pu) based on the ratio to this value
@@ -212,10 +212,10 @@ extern "C" {
 #define USER_MOTOR_TYPE_2                 MOTOR_Type_Pm  // Motor_Type_Pm (All Synchronous: BLDC, PMSM, SMPM, IPM) or Motor_Type_Induction (Asynchronous ACI)
 #define USER_MOTOR_NUM_POLE_PAIRS_2       (15)           // PAIRS, not total poles. Used to calculate user RPM from rotor Hz only
 #define USER_MOTOR_Rr_2                   (NULL)         // Induction motors only, else NULL
-#define USER_MOTOR_Rs_2                   (0.000000000)  // Identified phase to neutral resistance in a Y equivalent circuit (Ohms, float)
-#define USER_MOTOR_Ls_d_2                 (0.000000000)  // For PM, Identified average stator inductance  (Henry, float)
-#define USER_MOTOR_Ls_q_2                 (0.000000000)  // For PM, Identified average stator inductance  (Henry, float)
-#define USER_MOTOR_RATED_FLUX_2           (0.000000000)  // Identified TOTAL flux linkage between the rotor and the stator (V/Hz)
+#define USER_MOTOR_Rs_2                   (NULL)         // Identified phase to neutral resistance in a Y equivalent circuit (Ohms, float)
+#define USER_MOTOR_Ls_d_2                 (NULL)         // For PM, Identified average stator inductance  (Henry, float)
+#define USER_MOTOR_Ls_q_2                 (NULL)         // For PM, Identified average stator inductance  (Henry, float)
+#define USER_MOTOR_RATED_FLUX_2           (NULL)         // Identified TOTAL flux linkage between the rotor and the stator (V/Hz)
 #define USER_MOTOR_MAGNETIZING_CURRENT_2  (NULL)         // Induction motors only, else NULL
 #define USER_MOTOR_RES_EST_CURRENT_2      (1.0)          // During Motor ID, maximum current (Amperes, float) used for Rs estimation, 10-20% rated current
 #define USER_MOTOR_IND_EST_CURRENT_2      (-1.0)         // During Motor ID, maximum current (negative Amperes, float) used for Ls estimation, use just enough to enable rotation
@@ -226,10 +226,10 @@ extern "C" {
 #define USER_MOTOR_TYPE_2                 MOTOR_Type_Pm
 #define USER_MOTOR_NUM_POLE_PAIRS_2       (15)
 #define USER_MOTOR_Rr_2                   (NULL)
-#define USER_MOTOR_Rs_2                   (0.000000000)
-#define USER_MOTOR_Ls_d_2                 (0.000000000)
-#define USER_MOTOR_Ls_q_2                 (0.000000000)
-#define USER_MOTOR_RATED_FLUX_2           (0.000000000)
+#define USER_MOTOR_Rs_2                   (NULL)
+#define USER_MOTOR_Ls_d_2                 (NULL)
+#define USER_MOTOR_Ls_q_2                 (NULL)
+#define USER_MOTOR_RATED_FLUX_2           (NULL)
 #define USER_MOTOR_MAGNETIZING_CURRENT_2  (NULL)
 #define USER_MOTOR_RES_EST_CURRENT_2      (1.0)
 #define USER_MOTOR_IND_EST_CURRENT_2      (-1.0)
