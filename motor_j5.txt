@@ -1,0 +1,44 @@
+gMotorVars.Rs_Ohm	float	0.19595629	0x00B170@Program	
+gMotorVars.Lsd_H	float	0.000538586872	0x00B174@Program	
+gMotorVars.Lsq_H	float	0.000538586872	0x00B176@Program	
+gMotorVars.Flux_VpHz	float	0.145660684	0x00B178@Program	
+gMotorVars.I_bias	struct _MATH_vec3_	{value=[16871152,16902840,16809753]} (Q-Value(24))	0x00B19E@Program	
+	value	long[3]	0x00B19E@Program (Q-Value(24))	0x00B19E@Program	
+		[0]	long	1.005599022 (Q-Value(24))	0x00B19E@Program	
+		[1]	long	1.007487774 (Q-Value(24))	0x00B1A0@Program	
+		[2]	long	1.001939356 (Q-Value(24))	0x00B1A2@Program	
+gMotorVars.V_bias	struct _MATH_vec3_	{value=[8423074,8395680,8375269]} (Q-Value(24))	0x00B1A4@Program	
+	value	long[3]	0x00B1A4@Program (Q-Value(24))	0x00B1A4@Program	
+		[0]	long	0.5020543337 (Q-Value(24))	0x00B1A4@Program	
+		[1]	long	0.500421524 (Q-Value(24))	0x00B1A6@Program	
+		[2]	long	0.4992049336 (Q-Value(24))	0x00B1A8@Program	
+
+gMotorVars.Rs_Ohm	float	0.196200058	0x00B170@Program	
+gMotorVars.Lsd_H	float	0.000530198915	0x00B174@Program	
+gMotorVars.Lsq_H	float	0.000530198915	0x00B176@Program	
+gMotorVars.Flux_VpHz	float	0.14560616	0x00B178@Program	
+gMotorVars.I_bias	struct _MATH_vec3_	{value=[16872584,16906095,16814658]} (Q-Value(24))	0x00B19E@Program	
+	value	long[3]	0x00B19E@Program (Q-Value(24))	0x00B19E@Program	
+		[0]	long	1.005684376 (Q-Value(24))	0x00B19E@Program	
+		[1]	long	1.007681787 (Q-Value(24))	0x00B1A0@Program	
+		[2]	long	1.002231717 (Q-Value(24))	0x00B1A2@Program	
+gMotorVars.V_bias	struct _MATH_vec3_	{value=[8423118,8395596,8375134]} (Q-Value(24))	0x00B1A4@Program	
+	value	long[3]	0x00B1A4@Program (Q-Value(24))	0x00B1A4@Program	
+		[0]	long	0.5020569563 (Q-Value(24))	0x00B1A4@Program	
+		[1]	long	0.5004165173 (Q-Value(24))	0x00B1A6@Program	
+		[2]	long	0.499196887 (Q-Value(24))	0x00B1A8@Program	
+
+gMotorVars.Rs_Ohm	float	0.195768803	0x00B170@Program	
+gMotorVars.Lsd_H	float	0.000522621267	0x00B174@Program	
+gMotorVars.Lsq_H	float	0.000522621267	0x00B176@Program	
+gMotorVars.Flux_VpHz	float	0.145604655	0x00B178@Program	
+gMotorVars.I_bias	struct _MATH_vec3_	{value=[16872906,16903242,16809142]} (Q-Value(24))	0x00B19E@Program	
+	value	long[3]	0x00B19E@Program (Q-Value(24))	0x00B19E@Program	
+		[0]	long	1.005703568 (Q-Value(24))	0x00B19E@Program	
+		[1]	long	1.007511735 (Q-Value(24))	0x00B1A0@Program	
+		[2]	long	1.001902938 (Q-Value(24))	0x00B1A2@Program	
+gMotorVars.V_bias	struct _MATH_vec3_	{value=[8421857,8394039,8373530]} (Q-Value(24))	0x00B1A4@Program	
+	value	long[3]	0x00B1A4@Program (Q-Value(24))	0x00B1A4@Program	
+		[0]	long	0.5019817948 (Q-Value(24))	0x00B1A4@Program	
+		[1]	long	0.5003237128 (Q-Value(24))	0x00B1A6@Program	
+		[2]	long	0.4991012812 (Q-Value(24))	0x00B1A8@Program	
